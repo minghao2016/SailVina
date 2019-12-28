@@ -214,7 +214,6 @@ class Tab6(object):
         # 检查路径是否正确
         if not Check.check_python():
             return
-        obabel_path = Configer.get_para("obabel_path")
         if not Check.check_obabel():
             return
 

@@ -81,7 +81,7 @@ class Tab5(object):
         create_tooltip(self.choose_pdbqt_dir_entry.entry, "选择包含pdbqt受体的文件夹")
         choose_pdbqt_dir.bind_open_dir(self.choose_pdbqt_dir_entry.textvariable,
                                        title="选择有pdbqt受体的文件夹")
-        move_button = SButton(move_pdbqt_labelframe, text="生成文件", x=460, y=0, width=90)
+        move_button = SButton(move_pdbqt_labelframe, text="移动文件", x=460, y=0, width=90)
         create_tooltip(move_button.button, "开始移动pdbqt文件并重命名为preped.pdbqt")
         move_button.button.bind("<Button-1>", self.move_file)
 

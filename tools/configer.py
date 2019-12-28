@@ -36,7 +36,8 @@ class Configer(object):
                                 "nphs=1\n" \
                                 "lps=1\n" \
                                 "waters=1\n" \
-                                "nonstdres=1\n"
+                                "nonstdres=1\n" \
+                                "complex_ligand_num=1\n"
                 f.write(initial_value)
 
     @staticmethod
